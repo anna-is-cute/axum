@@ -15,12 +15,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **fixed:** Improve `debug_handler` on tuple response types ([#2201])
 - **added:** Add `must_use` attribute to `Serve` and `WithGracefulShutdown` ([#2484])
 - **added:** Re-export `axum_core::body::BodyDataStream` from axum
-- **breaking:** Make `serve` generic over the listener and IO types
+- **breaking:** Make `serve` generic over the listener and IO types ([#2479])
 
 [#2201]: https://github.com/tokio-rs/axum/pull/2201
 [#2483]: https://github.com/tokio-rs/axum/pull/2483
 [#2201]: https://github.com/tokio-rs/axum/pull/2201
 [#2484]: https://github.com/tokio-rs/axum/pull/2484
+[#2479]: https://github.com/tokio-rs/axum/pull/2479
 
 # 0.7.3 (29. December, 2023)
 
